@@ -1,0 +1,103 @@
+ <h5 class="h6">Born</h5>
+                      <?php
+                      $person_birth = get_field( 'person_birth' );
+                      if ( $person_birth ): ?>
+                      <?php
+                      foreach ( $person_birth as $birth_fact ):
+                        $birthdate = get_field( 'event_date', $birth_fact->ID );
+                      $birth_place = get_field( 'event_city', $birth_fact->ID );
+                      if ( $birth_place ):
+                        foreach ( $birth_place as $birthplace ):
+                          $title = get_the_title( $birthplace->ID );
+                      ?>
+                      <?php echo $birthdate; ?>
+                      <?php endforeach; else: echo 'Unknown';?>
+                      <?php
+                      endif;
+                      ?>
+                      <div class="mb-2"> <?php echo $title; ?> </div>
+                      <?php endforeach; ?>
+                      <?php else: echo 'Unkown'; ?>
+                      <?php endif; ?>
+                    </div>
+                  </div>
+                  <div class="text-center d-grid">
+                    <h5 class="h6">Died</h5>
+                    <?php
+                    $death_date = get_field( 'person_death' );
+                    if ( $death_date ): ?>
+                    <?php
+                    foreach ( $death_date as $death_day ):
+                      $deathdate = get_field( 'event_date', $death_day->ID );
+                    $death_place = get_field( 'event_city', $death_day->ID );
+                    if ( $death_place ):
+                      foreach ( $death_place as $deathplace ):
+                        $title = get_the_title( $deathplace->ID );
+                    ?>
+                    <?php echo $deathdate; ?>
+                    <?php endforeach; else: echo 'Unknown';?>
+                    <?php
+                    endif;
+                    ?>
+                    <div class="mb-2"> <?php echo $title; ?> </div>
+                    <?php endforeach; ?>
+                    <?php else: echo "Unknown"; ?>
+                    <?php endif; ?>
+                  </div>
+
+ <div class="text-center">
+                    <h6 class="h6">Generation</h6>
+                    <?php
+                    $term = get_field( 'person_generation' );
+                    if ( $term ): ?>
+                    <?php echo esc_html( $term->name ); ?>
+                    <?php endif; ?>
+                  </div>
+
+                <p class="text-center card-text h4">Family Lines</p>
+                <?php
+                $terms = get_field( 'person_lineage' );
+                if ( $terms ): ?>
+                <ul class="nav justify-content-center">
+                  <?php foreach( $terms as $term ): ?>
+                  <li class="nav-item border-end border-warning"><a href="<?php echo esc_url( get_term_link( $term ) ); ?>" class="nav-link"><?php echo esc_html( $term->name ); ?></a></li>
+                  <?php endforeach; ?>
+                </ul>
+                <?php endif; ?>
+  <?php get_template_part( 'template-parts/components/family', 'tree' ); ?>
+                <div class="d-flex justify-content-evenly">
+                  <div class="p-2"> 
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#familyTree">Family Tree</button>
+                  </div>
+                
+                  <div class="p-2"> <a href="<?php the_permalink(); ?>">
+                    <button type="button" class="btn btn-warning text-white">More Info</button>
+                    </a> </div>
+</div>
+
+        <div class="d-flex justify-content-evenly">
+                  <div class="p-2"> 
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#familyTree">Family Tree</button>
+                  </div>
+                
+                  <div class="p-2"> <a href="<?php the_permalink(); ?>">
+                    <button type="button" class="btn btn-warning text-white">More Info</button>
+                    </a> </div>
+</div>
+
+	<p class="text-center card-text h6">Family Lines</p>
+				<div class="d-flex justify-content-around text-center">
+					 
+					
+                <?php
+                $terms = get_field( 'person_lineage' );
+                if ( $terms ): ?>
+                <ul class="nav justify-content-center">
+                  <?php foreach( $terms as $term ): ?>
+                  <li class="nav-item"><a href="<?php echo esc_url( get_term_link( $term ) ); ?>" class="nav-link"><?php echo esc_html( $term->name ); ?></a></li>
+                  <?php endforeach; ?>
+                </ul>
+                <?php endif; ?>
+				</div>

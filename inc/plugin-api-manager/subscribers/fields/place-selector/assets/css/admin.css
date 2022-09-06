@@ -1,0 +1,433 @@
+/*
+ * CSS for the ACF City Selector plugin
+ */
+
+/* admin menu */
+.acfps .acfps-admin-menu a {
+    text-decoration: none;
+}
+
+.acfps .acfps-admin-menu a.current_page {
+    font-weight: bold;
+}
+
+.acfps .acfps-admin-menu a.cta {
+    color:       #dc3232;
+    font-weight: bold;
+}
+
+/* admin pages */
+.acfps .admin_left .content,
+.acfps .admin_right .content {
+    background: white;
+    box-sizing:            border-box;
+    border:                1px solid #cccccc;
+    padding:               10px;
+    -moz-border-radius:    8px;
+    -webkit-border-radius: 8px;
+}
+
+.acfps .admin_left {
+    margin-bottom: 1rem;
+}
+
+.acfps h2,
+.acfps h3 {
+    margin:        0;
+    margin-bottom: 1rem;
+}
+
+.acfps__section {
+    border-top:  1px solid #cccccc;
+    margin-top:  1.5em;
+    padding-top: 1.5em;
+}
+
+.acfps__section:first-child {
+    border-top:     0;
+    margin-top:     0;
+    padding-top:    0;
+    padding-bottom: 0;
+}
+
+.acfps__section--subscription {
+    padding-bottom: 0;
+}
+
+.acfps__section--results {
+    margin-top: 2em;
+}
+
+.acfps__section--export p.json_button {
+    vertical-align: middle;
+}
+
+.acfps__search-form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.acfps__search-criteria {
+    margin-bottom: 0.75rem;
+}
+
+.acfps__search-criteria:last-child {
+    margin-bottom: 0;
+}
+
+.acfps__search-criteria--orderby {
+    margin-right: 1.25em;
+}
+
+.acfps__search-criteria--or,
+.acfps__search-criteria--plus {
+    margin:      0 0.5em;
+    padding-top: 5px;
+}
+
+/* tables */
+.acfps table.acfps__table {
+    border:          0;
+    border-spacing:  0;
+    border-collapse: collapse;
+    width:           100%;
+    max-width:       100%;
+}
+
+.acfps table.acfps__table--packages {
+    margin-top:    1rem;
+    margin-bottom: 1rem;
+}
+
+.acfps table.acfps__table--packages img.flag {
+    border:       1px solid #222;
+    margin-right: 0.5rem;
+}
+
+.acfps table.acfps__table--info {
+    margin-bottom: 2em;
+    max-width:     450px;
+}
+
+.acfps table.acfps__table--search {
+    margin-top:    1em;
+    margin-bottom: 1em;
+}
+
+.acfps table.acfps__table th,
+.acfps table.acfps__table td {
+    padding:    5px 0.5em 5px 0;
+    text-align: left;
+}
+
+.acfps table.acfps__table td {
+    border-top: 1px solid #444444;
+}
+
+.acfps table.acfps__table--search tr td:nth-child(1),
+.acfps table.acfps__table--search tr td:nth-child(2) {
+    width: 60px;
+}
+
+/* forms */
+.acfps .upload-element {
+    margin-bottom: 1rem;
+}
+
+.acfps .upload-element:last-child {
+    margin-bottom: 0;
+}
+
+.acfps .form--upload {
+    margin-top: 5px;
+    position:   relative;
+}
+
+.acfps .form--upload .val {
+    background:     white;
+    border:         1px solid #ccc;
+    width:          185px;
+    height:         35px;
+    position:       absolute;
+    top:            0;
+    left:           0;
+    font-size:      15px;
+    line-height:    35px;
+    text-indent:    10px;
+    pointer-events: none;
+    overflow:       hidden;
+}
+
+.acfps .form--upload .upload_button {
+    border-radius: 0;
+    display:       block;
+    height:        37px;
+    left:          185px;
+    position:      absolute;
+    top:           0;
+    font-size:     15px;
+    line-height:   35px;
+    text-align:    center;
+}
+
+.acfps .acfps__process-file-element {
+    margin-bottom: 0.5rem;
+}
+
+.acfps label {
+    font-weight: bold;
+}
+
+.acfps .acfps__process-file-element label {
+    display: inline-block;
+    width:   80px;
+}
+
+/* form inputs */
+.acfps .form--upload input[type='file'] {
+    width:   185px;
+    height:  35px;
+    opacity: 0;
+}
+
+.acfps__search-criteria--search input {
+    border:        1px solid #7e8993;
+    border-radius: 3px;
+    box-sizing:    border-box;
+    color:         #32373c;
+    margin:        0;
+}
+
+.acfps input[name="acfps_limit"],
+.acfps input[name="acfps_max_lines"] {
+    width: 80px;
+}
+
+.acfps input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.acfps textarea#raw-import {
+    width:         100%;
+    max-width:     100%;
+    margin-bottom: 1rem;
+}
+
+/* misc */
+.acfps hr {
+    background:    #CCCCCC;
+    width:         100%;
+    height:        1px;
+    border:        0;
+    margin-bottom: 1em;
+}
+
+.acfps img.acfps__donate {
+    float:         left;
+    margin-top:    3px;
+    margin-right:  10px;
+    margin-bottom: 10px;
+}
+
+/* help menus */
+.contextual-help-tabs {
+    width: 170px;
+}
+
+#contextual-help-back {
+    left: 170px;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap h5 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after:  0;
+    margin-bottom:         0.5em;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap h5:first-child {
+    -webkit-margin-before: 0.75em;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap p {
+    -webkit-margin-before: 0;
+    margin:                0.5em 0 0.5em 0;
+}
+
+#contextual-help-columns .contextual-help-sidebar p {
+    -webkit-margin-before: 0;
+    margin:                1em 0 0.5em 0;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap table {
+    border-spacing: 0;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap th,
+#contextual-help-columns .contextual-help-tabs-wrap td {
+    padding: 5px 0.5em 5px 0;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap th {
+    text-align: left;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap td {
+    border-top: 1px solid #444444;
+}
+
+/* media queries */
+@media screen and (min-width: 400px) {
+    .hide400 {
+        display: none;
+    }
+}
+
+@media screen and ( min-width: 480px ) {
+    .hide480 {
+        display: none;
+    }
+
+    .acfps .admin_left .content,
+    .acfps .admin_right .content {
+        padding: 20px;
+    }
+
+    .acfps .form--upload input[type='file'] {
+        width:  350px;
+        height: 35px;
+    }
+
+    .acfps .form--upload .val {
+        width: 350px;
+    }
+
+    .acfps .form--upload .upload_button {
+        left: 350px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .acfps table.acfps__table--packages.scrollable {
+        display:     block;
+        overflow:    hidden;
+        white-space: nowrap;
+        overflow-x:  scroll;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .acfps table.acfps__table--search.scrollable {
+        display:     block;
+        overflow:    hidden;
+        white-space: nowrap;
+        overflow-x:  scroll;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .hide568 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .acfps table.acfps__table--preview-result.scrollable {
+        display:     block;
+        overflow:    hidden;
+        white-space: nowrap;
+        overflow-x:  scroll;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .hide640 {
+        display: none;
+    }
+
+    .admin_right .paypal_button {
+        margin-bottom: 2.5em;
+    }
+
+    .acfps .acfps__process-file {
+        display:   flex;
+        flex-flow: row nowrap;
+    }
+
+    .acfps .acfps__process-file-element {
+        margin-right: 2rem;
+    }
+
+    .acfps .acfps__process-file-element label {
+        display: block;
+    }
+
+    .acfps .acfps__process-file-element--file {
+        min-width: 130px;
+    }
+}
+
+/* screensize used in WP forms.css */
+@media screen and (max-width: 782px) {
+    .acfps__search-criteria--or,
+    .acfps__search-criteria--plus {
+        margin:      0 0.5em;
+        padding-top: 10px;
+    }
+    .acfps__checkboxes li {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .admin_right .paypal_button {
+        margin-bottom: initial;
+    }
+
+    .acfps table.acfps__table--search {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .acfps__container {
+        display:         flex;
+        flex-flow:       row nowrap;
+        justify-content: space-between;
+    }
+
+    .acfps .admin_left {
+        margin-bottom: 0;
+        width:         70%;
+    }
+
+    .acfps .admin_right {
+        max-width: 27.5%;
+    }
+
+    .acfps table.acfps__table--preview-result {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .acfps .admin_left {
+        width: 77.5%;
+    }
+
+    .acfps .admin_right {
+        max-width: 20%;
+    }
+
+    .acfps__search-criteria {
+        margin-bottom: 0;
+    }
+
+    .acfps table.acfps__table--search {
+        max-width: 60%;
+    }
+
+    .acfps table.acfps__table--packages {
+        max-width: 80%;
+    }
+}

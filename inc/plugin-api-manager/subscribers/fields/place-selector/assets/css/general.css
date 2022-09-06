@@ -1,0 +1,56 @@
+/* errors */
+.acfps .notice--error {
+    border-left-color: #dc3232;
+}
+
+.acfps .notice--success {
+    border-left-color: #43bc71;
+}
+
+.acfps .notice--warning {
+    border-left-color: #ff9000;
+}
+
+.acfps .notice--info {
+    border-left-color: #00a0d2;
+}
+
+.acfps .field__message {
+    background-color:  #f9f9f9;
+    border-top:        1px solid #ccd0d4;
+    border-right:      1px solid #ccd0d4;
+    border-bottom:     1px solid #ccd0d4;
+    margin-bottom:     1rem;
+}
+
+.acfps .field__message--error {
+    border-left-color: #dc3232;
+}
+
+.acfps .field__message--warning {
+    border-left-color: #ff9000;
+}
+
+/* edit post screens v4 */
+/* not actively supported anymore */
+.field_type-ACF_Place_Selector .acfps__dropdown-box {
+    margin-bottom: 1rem;
+}
+
+.field_type-ACF_Place_Selector span.acf-input-header {
+    display:       block;
+    margin-bottom: 10px;
+}
+
+/* edit post screens v5 */
+.acf-field-acf-place-selector .acfps__dropdown-box {
+    margin-bottom: 1rem;
+}
+
+.acf-field.acf-field-acf-place-selector select.acfps__dropdown {
+    padding: 4px;
+}
+
+.acf-field-acf-place-selector .acf-input-header {
+    margin-bottom: 10px;
+}

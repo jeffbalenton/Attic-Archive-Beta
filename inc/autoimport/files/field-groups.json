@@ -1,0 +1,1788 @@
+[
+{
+    "item": [
+        {
+            "post_title": {
+                "__cdata": "Add Event"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9634",
+            "pubDate": "Sun, 23 Oct 2022 08:07:03 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9634",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"event\";}}}s:8:\"position\";s:15:\"acf_after_post_title\";s:5:\"style\";s:8:\"seamless\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "add-event"
+                }
+            ],
+            "ID": 9634,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:03"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:03"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:03"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:03"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_6314bcd7b9d1a"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Add Person"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9648",
+            "pubDate": "Sun, 23 Oct 2022 08:07:05 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9648",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"person\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:7:\"tooltip\";s:14:\"hide_on_screen\";a:1:{i:0;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "add-person"
+                }
+            ],
+            "ID": 9648,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_632ee78bd6800"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Add Place"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9738",
+            "pubDate": "Sun, 23 Oct 2022 08:07:05 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9738",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"place\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "add-place"
+                }
+            ],
+            "ID": 9738,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_632ee36887590"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Article"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9748",
+            "pubDate": "Sun, 23 Oct 2022 08:07:05 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9748",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:16:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:7:\"article\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:14:\"acfict_enabled\";i:1;s:17:\"acfict_use_prefix\";i:1;s:17:\"acfict_table_name\";s:7:\"article\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "article"
+                }
+            ],
+            "ID": 9748,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:05"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eb0453e7ccac"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Audio"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9794",
+            "pubDate": "Sun, 23 Oct 2022 08:07:06 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9794",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"audio\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "audio"
+                }
+            ],
+            "ID": 9794,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:06"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:06"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f0f97ac5e987"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Bookmarks"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9860",
+            "pubDate": "Sun, 23 Oct 2022 08:07:07 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9860",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:8:\"bookmark\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:2:{i:0;s:11:\"the_content\";i:1;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "bookmarks"
+                }
+            ],
+            "ID": 9860,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:07"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:07"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f5798c0465a8"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Citations"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9914",
+            "pubDate": "Sun, 23 Oct 2022 08:07:08 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9914",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:8:\"citation\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:2:{i:0;s:11:\"the_content\";i:1;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "citations"
+                }
+            ],
+            "ID": 9914,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:08"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:08"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_6026cdefc0219"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Collections"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=9969",
+            "pubDate": "Sun, 23 Oct 2022 08:07:09 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=9969",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:10:\"collection\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "collections"
+                }
+            ],
+            "ID": 9969,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eb04ebcbf268"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "contact form"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10001",
+            "pubDate": "Sun, 23 Oct 2022 08:07:09 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10001",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:12:\"contact_form\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "contact-form"
+                }
+            ],
+            "ID": 10001,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_620b23fae3a0b"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Containers"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10005",
+            "pubDate": "Sun, 23 Oct 2022 08:07:09 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10005",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:10:\"collection\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "containers"
+                }
+            ],
+            "ID": 10005,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5fd8e17db0366"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Documents"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10012",
+            "pubDate": "Sun, 23 Oct 2022 08:07:09 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10012",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:8:\"document\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "documents"
+                }
+            ],
+            "ID": 10012,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:09"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f0cc561d9b1e"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Ephemera"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10049",
+            "pubDate": "Sun, 23 Oct 2022 08:07:10 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10049",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:8:\"ephemera\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "ephemera"
+                }
+            ],
+            "ID": 10049,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:10"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:10"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f3bf03bcf55c"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Event"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10083",
+            "pubDate": "Sun, 23 Oct 2022 08:07:12 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10083",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:12:\"options_page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:22:\"theme-general-settings\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "event"
+                }
+            ],
+            "ID": 10083,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:12"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:12"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f0344dec2876"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Letters"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10200",
+            "pubDate": "Sun, 23 Oct 2022 08:07:13 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10200",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"letter\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "letters"
+                }
+            ],
+            "ID": 10200,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eaf242badefb"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Locations"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10254",
+            "pubDate": "Sun, 23 Oct 2022 08:07:13 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10254",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:8:\"location\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "locations"
+                }
+            ],
+            "ID": 10254,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f71f88a61454"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Nav Menu Icons"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10277",
+            "pubDate": "Sun, 23 Oct 2022 08:07:13 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10277",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"nav_menu_item\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:3:\"all\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "nav-menu-icons"
+                }
+            ],
+            "ID": 10277,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:13"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_6209d900329bc"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Objects"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10279",
+            "pubDate": "Sun, 23 Oct 2022 08:07:14 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10279",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"object\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "objects"
+                }
+            ],
+            "ID": 10279,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:14"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:14"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f761ab5c1f47"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "People"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10320",
+            "pubDate": "Sun, 23 Oct 2022 08:07:16 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10320",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:12:\"options_page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:18:\"acf-options-people\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:8:\"seamless\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:7:\"tooltip\";s:14:\"hide_on_screen\";a:1:{i:0;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "people"
+                }
+            ],
+            "ID": 10320,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:16"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:16"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eac8f5d0b8e9"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Photo"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10449",
+            "pubDate": "Sun, 23 Oct 2022 08:07:17 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10449",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"photo\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "photo"
+                }
+            ],
+            "ID": 10449,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:17"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:17"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eaee07ccd0d8"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Photo Album"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10498",
+            "pubDate": "Sun, 23 Oct 2022 08:07:17 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10498",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:11:\"photo_album\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "photo-album"
+                }
+            ],
+            "ID": 10498,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:17"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:17"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eefa2ad650d6"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Photo Studio"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10526",
+            "pubDate": "Sun, 23 Oct 2022 08:07:18 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10526",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:12:\"photo_studio\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "photo-studio"
+                }
+            ],
+            "ID": 10526,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:18"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:18"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eb2ca39805d7"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Place"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10543",
+            "pubDate": "Sun, 23 Oct 2022 08:07:19 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10543",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:12:\"options_page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:17:\"acf-options-place\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:8:\"seamless\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:4:{i:0;s:10:\"categories\";i:1;s:11:\"the_content\";i:2;s:4:\"tags\";i:3;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "place"
+                }
+            ],
+            "ID": 10543,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eb2f159170a8"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Post Fields"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10600",
+            "pubDate": "Sun, 23 Oct 2022 08:07:19 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10600",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"post\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:8:\"seamless\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:11:\"the_content\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "post-fields"
+                }
+            ],
+            "ID": 10600,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f4a6dc68a8f5"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Research Notes"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10620",
+            "pubDate": "Sun, 23 Oct 2022 08:07:19 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10620",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:10:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"letter\";}}i:1;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"photo\";}}i:2;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:7:\"article\";}}i:3;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"story\";}}i:4;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"place\";}}i:5;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"audio\";}}i:6;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:11:\"photo_album\";}}i:7;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"event\";}}i:8;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:8:\"document\";}}i:9;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:10:\"collection\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "research-notes"
+                }
+            ],
+            "ID": 10620,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f0c6eb201deb"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Rights and Usage"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10624",
+            "pubDate": "Sun, 23 Oct 2022 08:07:19 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10624",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:14:{s:8:\"location\";a:6:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"letter\";}}i:1;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"photo\";}}i:2;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:7:\"article\";}}i:3;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"story\";}}i:4;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"audio\";}}i:5;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"video\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:16:\"acfe_permissions\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "rights-and-usage"
+                }
+            ],
+            "ID": 10624,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eaf1d0973241"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Source"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10627",
+            "pubDate": "Sun, 23 Oct 2022 08:07:19 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10627",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"source\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:2:{i:0;s:11:\"the_content\";i:1;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "source"
+                }
+            ],
+            "ID": 10627,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:19"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eaee3064d8ba"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Stories"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10636",
+            "pubDate": "Sun, 23 Oct 2022 08:07:20 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10636",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"story\";}}}s:8:\"position\";s:15:\"acf_after_post_title\";s:5:\"style\";s:8:\"seamless\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "stories"
+                }
+            ],
+            "ID": 10636,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:20"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f0f985587f67"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Tasks"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10664",
+            "pubDate": "Sun, 23 Oct 2022 08:07:21 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10664",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"task\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "tasks"
+                }
+            ],
+            "ID": 10664,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f4ed958179d2"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Texts"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10693",
+            "pubDate": "Sun, 23 Oct 2022 08:07:21 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10693",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"text\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "texts"
+                }
+            ],
+            "ID": 10693,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5f513eb91a4d5"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Updates"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10721",
+            "pubDate": "Sun, 23 Oct 2022 08:07:21 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10721",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:6:\"update\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:2:{i:0;s:11:\"the_content\";i:1;s:5:\"post_title\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "updates"
+                }
+            ],
+            "ID": 10721,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_6036b2fa10567"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "User Registration"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10725",
+            "pubDate": "Sun, 23 Oct 2022 08:07:21 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10725",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:14:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"user_form\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:3:\"all\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:13:\"acfe_autosync\";s:0:\"\";s:16:\"acfe_permissions\";s:0:\"\";s:9:\"acfe_form\";i:0;s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "user-registration"
+                }
+            ],
+            "ID": 10725,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:21"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5fa057736a1a7"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "Video Recording"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10730",
+            "pubDate": "Sun, 23 Oct 2022 08:07:22 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10730",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:13:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"audio\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:4:\"left\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";b:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:0;s:18:\"acfe_display_post_title\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "video-recording"
+                }
+            ],
+            "ID": 10730,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eb04a66daff6"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 0,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        },
+        {
+            "post_title": {
+                "__cdata": "City Details"
+            },
+            "link": "http://staging.test/?post_type=acf-field-group&#038;p=10749",
+            "pubDate": "Sun, 23 Oct 2022 08:07:22 +0000",
+            "creator": {
+                "__cdata": "webmaster"
+            },
+            "guid": "http://staging.test/?p=10749",
+            "description": "",
+            "post_content": [
+                {
+                    "__cdata": "a:14:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"city\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:8:\"seamless\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:4:{i:0;s:11:\"the_content\";i:1;s:14:\"featured_image\";i:2;s:4:\"slug\";i:3;s:4:\"tags\";}s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;s:13:\"acfe_autosync\";s:0:\"\";s:9:\"acfe_form\";i:1;s:18:\"acfe_display_post_title\";s:0:\"\";s:16:\"acfe_permissions\";s:0:\"\";s:9:\"acfe_meta\";s:0:\"\";s:9:\"acfe_note\";s:0:\"\";}"
+                },
+                {
+                    "__cdata": "city-details"
+                }
+            ],
+            "ID": 10749,
+            "post_date": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_date_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "post_modified_gmt": {
+                "__cdata": "2022-10-23 08:07:22"
+            },
+            "comment_status": {
+                "__cdata": "closed"
+            },
+            "ping_status": {
+                "__cdata": "closed"
+            },
+            "post_name": {
+                "__cdata": "group_5eac2b277f78e"
+            },
+            "post_status": {
+                "__cdata": "publish"
+            },
+            "post_parent": 0,
+            "menu_order": 1,
+            "post_type": {
+                "__cdata": "acf-field-group"
+            },
+            "post_password": {
+                "__cdata": ""
+            },
+            "is_sticky": 0
+        }
+    ]
+}
+]

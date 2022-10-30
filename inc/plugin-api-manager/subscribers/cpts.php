@@ -25,11 +25,25 @@ implements SubscriberInterface {
       //'init' => '_includes',
       'init' =>['cptui_register_my_cpts',25] ,
       // 'wp_loaded' => 'cptui_custom_taxonomies',
-      'wp_loaded' => ['cptui_register_my_taxonomies',0], 
-
+      'wp_loaded' => ['cptui_register_my_taxonomies',25], 
+     // 'wp_loaded' =>'archive_importer_init',
     ];
   }
+   function archive_importer_init() {
+	//load_plugin_textdomain( 'wordpress-importer' );
 
+	/**
+	 * WordPress Importer object for registering the import callback
+	 * @global WP_Import $wp_import
+	 */
+	$archive_import = new Archive_Import();
+		  	 $import_check = get_option( 'import-check' );
+    if ( $import_check != 'done' ):
+      $file = get_template_directory() . '/inc/starter-content/starter-content.xml';
+	$archive_import->import($file);
+		      update_option( 'import-check', 'done' );
+    endif;
+   }
   public function _includes() {
 
   }
@@ -287,6 +301,39 @@ implements SubscriberInterface {
     wp_insert_term( 'Female', 'gender' );
     wp_insert_term( 'Trans', 'gender' );
 
+	   /**
+     * Taxonomy:Status.
+     */
+
+    $labels = [
+      "name" => __( "Status", "hello-elementor" ),
+      "singular_name" => __( "Status", "hello-elementor" ),
+    ];
+
+
+    $args = [
+      "label" => __( "Status", "hello-elementor" ),
+      "labels" => $labels,
+      "public" => true,
+      "publicly_queryable" => true,
+      "hierarchical" => false,
+      "show_ui" => true,
+      "show_in_menu" => true,
+      "show_in_nav_menus" => true,
+      "query_var" => true,
+      "rewrite" => [ 'slug' => 'status', 'with_front' => true, ],
+      "show_admin_column" => false,
+      "show_in_rest" => true,
+      "rest_base" => "gender",
+      "rest_controller_class" => "WP_REST_Terms_Controller",
+      "show_in_quick_edit" => false,
+      "show_in_graphql" => false,
+    ];
+    register_taxonomy( "status", [ "person" ], $args );
+    wp_insert_term( 'Living', 'status' );
+    wp_insert_term( 'Deceased', 'status' );
+
+
 
     /**
      * Taxonomy: Types of School.
@@ -471,7 +518,7 @@ implements SubscriberInterface {
     wp_insert_term( 'Private', 'privacy_level' );
 
     wp_insert_term( 'Public', 'privacy_level' );
-
+  wp_insert_term( 'Family', 'privacy_level' );
 
     /**
      * Taxonomy: Branches of Military.
@@ -593,6 +640,76 @@ implements SubscriberInterface {
     ];
     register_taxonomy( "place_type", [ "place" ], $args );
 
+	  /**
+     * Taxonomy: Status Types.
+     */
+
+    $labels = [
+      "name" => __( " Task Status", "hello-elementor" ),
+      "singular_name" => __( "Status", "hello-elementor" ),
+    ];
+
+
+    $args = [
+      "labels" => $labels,
+      "public" => true,
+      "publicly_queryable" => true,
+      "hierarchical" => false,
+      "show_ui" => true,
+      "show_in_menu" => true,
+      "show_in_nav_menus" => false,
+      "query_var" => true,
+      "rewrite" => [ 'slug' => 'status', 'with_front' => true, ],
+      "show_admin_column" => false,
+      "show_in_rest" => true,
+      "rest_base" => "task_status",
+      "rest_controller_class" => "WP_REST_Terms_Controller",
+      "show_in_quick_edit" => false,
+      "show_in_graphql" => false,
+    ];
+    register_taxonomy( "task_status", [ "task" ], $args );  
+	  
+	  $tasks=['To Do','In Progress','Completed'];
+	  
+	  foreach ($tasks as $task):
+	  wp_insert_term($task,'task_status');
+	  endforeach;
+	  
+	   /**
+     * Taxonomy: Task Types.
+     */
+
+    $labels = [
+      "name" => __( " Task Types", "hello-elementor" ),
+      "singular_name" => __( "Task Type", "hello-elementor" ),
+    ];
+
+
+    $args = [
+      "labels" => $labels,
+      "public" => true,
+      "publicly_queryable" => true,
+      "hierarchical" => false,
+      "show_ui" => true,
+      "show_in_menu" => true,
+      "show_in_nav_menus" => false,
+      "query_var" => true,
+      "rewrite" => [ 'slug' => 'type', 'with_front' => true, ],
+      "show_admin_column" => true,
+      "show_in_rest" => true,
+      "rest_base" => "task_type",
+      "rest_controller_class" => "WP_REST_Terms_Controller",
+      "show_in_quick_edit" => false,
+      "show_in_graphql" => false,
+    ];
+    register_taxonomy( "task_type", [ "task" ], $args ); 
+	  
+	  
+	  $taskTypes=['Research','Lookup','Contact','Transcribe','Scan','Edit'];
+	  
+	  foreach ($taskTypes as $type):
+	  wp_insert_term($type,'task_type');
+	  endforeach;
     /**
      * Taxonomy: Event Types.
      */
@@ -608,7 +725,7 @@ implements SubscriberInterface {
       "labels" => $labels,
       "public" => true,
       "publicly_queryable" => true,
-      "hierarchical" => false,
+      "hierarchical" => true,
       "show_ui" => true,
       "show_in_menu" => true,
       "show_in_nav_menus" => true,
@@ -622,6 +739,13 @@ implements SubscriberInterface {
       "show_in_graphql" => false,
     ];
     register_taxonomy( "event_type", [ "event" ], $args );
+	  
+	  $event_types=['Baptism','Birth','Confirmation','Death','Funeral','Graduation','Relocation','Military Service','Primary Birth','Primary 
+	  Death','Vacation','Other','Work','Special Occasion','Religious'];
+	  foreach ($event_types as $event):
+	   wp_insert_term($event,'event_type');
+	  endforeach;
+	 
 
     /**
      * Taxonomy: Source Types.
@@ -638,7 +762,7 @@ implements SubscriberInterface {
       "labels" => $labels,
       "public" => true,
       "publicly_queryable" => true,
-      "hierarchical" => false,
+      "hierarchical" => true,
       "show_ui" => true,
       "show_in_menu" => true,
       "show_in_nav_menus" => true,
@@ -653,6 +777,40 @@ implements SubscriberInterface {
     ];
     register_taxonomy( "source_type", [ "source" ], $args );
 
+	
+    $labels = [
+      "name" => __( "Bookmark Types", "hello-elementor" ),
+      "singular_name" => __( "Bookmark Type", "hello-elementor" ),
+    ];
+
+
+    $args = [
+      "label" => __( "Bookmark Types", "hello-elementor" ),
+      "labels" => $labels,
+      "public" => true,
+      "publicly_queryable" => true,
+      "hierarchical" => true,
+      "show_ui" => true,
+      "show_in_menu" => true,
+      "show_in_nav_menus" => true,
+      "query_var" => true,
+      "rewrite" => [ 'slug' => 'bookmark_type', 'with_front' => true, ],
+      "show_admin_column" => true,
+      "show_in_rest" => true,
+      "rest_base" => "bookmark_type",
+      "rest_controller_class" => "WP_REST_Terms_Controller",
+      "show_in_quick_edit" => true,
+      "show_in_graphql" => false,
+    ];
+    register_taxonomy( "bookmark_type", [ "bookmark" ], $args );
+	  
+  $bookmarks=['Historical Society','Research Website,Genealogy', 'Blog','Database','Library','Museum','Misc Website','Document','Original Source','Family Tree','Ancestry Profile','Find A Grave Profile','Family Search Profile','Fold3 Profile','Facebook Page','Facebook Group','Social Media Post','Place to Visit'];
+	  
+	  foreach($bookmarks as $bookmark):
+	  wp_insert_term($bookmark,'bookmark_type');
+	  endforeach;
+	  
+	  
     /**
      * Taxonomy: Person Tags.
      */

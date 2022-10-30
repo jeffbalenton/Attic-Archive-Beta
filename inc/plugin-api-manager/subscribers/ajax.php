@@ -26,7 +26,8 @@ implements SubscriberInterface {
       'wp_head' => 'my_wp_head_ajax_url',
       'wp_ajax_example_ajax_request' => 'example_ajax_request',
       'wp_ajax_nopriv_example_ajax_request' => 'example_ajax_request',
-
+      'wp_ajax_example_ajax_request' => 'person_ajax_request',
+      'wp_ajax_nopriv_example_ajax_request' => 'person_ajax_request',
 
     ];
   }
@@ -37,6 +38,7 @@ implements SubscriberInterface {
 <script type="text/Javascript">
 var ajaxurl ='<?php echo admin_url("admin-ajax.php"); ?>';
 </script>
+<!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
 <?php
 }
 
@@ -58,17 +60,46 @@ public function archive_scripts() {
 function example_ajax_request() {
   // The $_REQUEST contains all the data sent via AJAX from the Javascript call
   if ( isset( $_REQUEST ) ):
-    $tab = $_REQUEST[ 'tab' ];
+    $select = $_REQUEST[ 'value' ];
   // This bit is going to process our fruit variable into an Apple
-  if ( $tab == 'Banana' ):
+	
+
+$con = mysqli_connect('localhost','root','');
+if (!$con) {
+  die('Could not connect: ' . mysqli_error($con));
+}
+
+mysqli_select_db($con,"wp_ajax_database");
+$sql="SELECT * FROM user WHERE id = '".$select."'";
+$result = mysqli_query($con,$sql);
+	
+ 
     ob_start();
-  get_template_part( 'template-parts/components/ajax/person' );
+	echo "<table>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+<th>Hometown</th>
+<th>Job</th>
+</tr>";
+	while($row = mysqli_fetch_array($result)) {
+  echo "<tr>";
+  echo "<td>" . $row['FirstName'] . "</td>";
+  echo "<td>" . $row['LastName'] . "</td>";
+  echo "<td>" . $row['Age'] . "</td>";
+  echo "<td>" . $row['Hometown'] . "</td>";
+  echo "<td>" . $row['Job'] . "</td>";
+  echo "</tr>";
+}
+echo "</table>";
+mysqli_close($con);
   $result = ob_get_contents();
   ob_end_clean();
   $return = array( 'content' => $result );
   wp_send_json( $return );
 
-  endif;
+
 
   endif;
 

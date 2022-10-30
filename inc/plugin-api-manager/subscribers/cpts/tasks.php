@@ -29,7 +29,7 @@
 		"hierarchical" => false,
 		"rewrite" => [ "slug" => "task", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [  ],
+		"supports" => [ "title","custom-fields" ],
 		"show_in_graphql" => false,
 	];
 

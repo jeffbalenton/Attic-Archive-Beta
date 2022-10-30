@@ -48,7 +48,7 @@
         'has_archive'        => false,
         'hierarchical'       => true,
         'menu_position'      => null,
-        'supports'           => ["title"] ,
+        'supports'           => ["title","custom-fields"] ,
         'register_meta_box_cb' =>"City_meta_box_cb"
     );
  

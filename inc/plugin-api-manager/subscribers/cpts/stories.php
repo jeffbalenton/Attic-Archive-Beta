@@ -29,7 +29,7 @@
 		"hierarchical" => false,
 		"rewrite" => [ "slug" => "story", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [ "title", "editor", "thumbnail", "excerpt", "comments" ],
+		"supports" => [ "title", "thumbnail", "excerpt", "comments","custom-fields" ],
 		"show_in_graphql" => false,
 	];
 

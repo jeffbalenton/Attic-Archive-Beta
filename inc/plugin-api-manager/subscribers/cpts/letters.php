@@ -30,7 +30,7 @@
 		"rewrite" => [ "slug" => "letter", "with_front" => true ],
 		"query_var" => true,
 		"menu_position" => 28,
-		"supports" => [ "title", "thumbnail", "comments" ],
+		"supports" => [ "title", "thumbnail", "comments","custom-fields" ],
 		"show_in_graphql" => false,
 	];
 

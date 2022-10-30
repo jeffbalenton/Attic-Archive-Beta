@@ -44,6 +44,7 @@ public static function get_subscribed_hooks(){
 	return [
 		'acf/include_field_types' => 'include_fields',
 		'acf/register_fields' => 'include_fields',
+		//'wp_loaded' =>'archive_importer_init',
 	];
 }
 	  function _includes(){
@@ -51,7 +52,8 @@ public static function get_subscribed_hooks(){
 		   require_once( 'fields/acf-child-post-field/acf-child-post-field.php' );
 		  
 	  }
-	  
+	
+
     /*
      *  include_field
      *
@@ -104,10 +106,10 @@ public static function get_subscribed_hooks(){
      // require_once( 'fields/post/post-excerpt.php' );
      // require_once( 'fields/post/post-slug.php' );
       require_once( 'fields/post/post-title.php' );
-     // require_once( 'fields/post/post-type.php' );
+     //require_once( 'fields/post/child-post-field.php' );
 
     
-      require_once( 'fields/attic-archive/event-field.php' );
+     // require_once( 'fields/attic-archive/event-field.php' );
 		
 		
       //require_once( 'fields/city-selector/acf-city-selector.php' );

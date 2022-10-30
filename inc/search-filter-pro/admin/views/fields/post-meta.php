@@ -33,19 +33,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 			
 			<div class="sf_field_data sf_number" data-number-is-range="">
 				<?php //echo plugin_dir_path( dirname( __FILE__ ) ) ;
-				include( ( plugin_dir_path( dirname( __FILE__ ) ) ) . 'fields/post-meta/number.php' ); ?>
+				include( 'number.php' ); ?>
 			
 			</div>
 			
 			<div class="sf_field_data sf_choice">
 				
-				<?php include( ( plugin_dir_path( dirname( __FILE__ ) ) ) . 'fields/post-meta/choice.php' ); ?>
+				<?php include( 'choice.php' ); ?>
 				
 			</div>
 			
 			<div class="sf_field_data sf_date">
 				
-				<?php include( ( plugin_dir_path( dirname( __FILE__ ) ) ) . 'fields/post-meta/date.php' ); ?>
+				<?php include( 'date.php' ); ?>
 				
 				
 			</div>

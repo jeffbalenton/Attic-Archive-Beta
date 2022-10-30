@@ -22,9 +22,9 @@ implements SubscriberInterface {
   public static function get_subscribed_hooks() {
     return [
       'admin_head' => 'archive_admin_meta_boxes',
-      'admin_menu' => 'change_post_menu_label',
-      'init' => 'change_post_object_label',
-      'admin_menu' => 'setup_admin_menus',
+     // 'admin_menu' => 'change_post_menu_label',
+    // 'init' => 'change_post_object_label',
+    //  'admin_menu' => 'setup_admin_menus',
       'menu_order' => 'remove_these_admin_menus',
       'menu_order' => 'my_new_admin_menu_order',
       'admin_footer_text' => [ 'remove_admin_footer', 11 ],
@@ -32,11 +32,17 @@ implements SubscriberInterface {
       'admin_menu' => 'my_footer_shh',
       'menu_order' => 'my_new_admin_order',
       'admin_enqueue_scripts' => 'archive_admin_scripts',
-      'admin_menu' => 'setup_admin_menus'
-      //'' => ''
+     // 'admin_menu' => 'setup_admin_menus',
+
     ];
   }
 
+	  
+	
+
+
+
+	  
   function archive_admin_scripts( $hook ) {
 
     // Get modification time. Enqueue files with modification date to prevent browser from loading cached scripts and styles when file content changes.
@@ -46,17 +52,32 @@ implements SubscriberInterface {
 	  $screen = get_current_screen();
 	  
 	  if ('post-new.php?post_type=person' == $screen->parent_file):
-	   wp_enqueue_style( 'admin-style', get_template_directory_uri() . '/css/admin/person-admin-styles.css', array()  );
+	   wp_enqueue_style( 'admin-style', get_template_directory_uri() . '/css/admin/person-admin-style.css', array()  );
 
     wp_enqueue_script( 'admin-script', get_template_directory_uri() . '/js/admin/person-admin.js', array( 'jquery' ) );
+	
+	  
 	  endif;
 	  
-
+   
+	  if("attic-archive_page_unit-tests" == $screen->id):
+	   wp_enqueue_script( 'admin-scratch-script', get_template_directory_uri() . '/js/admin/admin-scratch.js', array( 'jquery' ),  true );
+	  
+	  wp_enqueue_style( 'main', get_template_directory_uri() . '/css/bootstrap.min.css');
+	    // Bootstrap JS
+  wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/lib/bootstrap.bundle.min.js', array(), true );
+	  endif;
+	  
     wp_enqueue_style( 'admin-style', get_template_directory_uri() . '/css/admin/admin-style.css', array(), $modificated_adminCss );
 
     wp_enqueue_script( 'admin-script', get_template_directory_uri() . '/js/admin/admin.js', array( 'jquery' ), $modificated_adminJs, true );
+	  
+	      wp_enqueue_script( 'admin-scratch-script', get_template_directory_uri() . '/js/admin/admin-scratch.js', array( 'jquery' ),  true );
   }
 
+	  
+	  
+	  
   //set menu order
   function my_new_admin_menu_order( $menu_order ) {
     // define your new desired menu positions here
@@ -88,11 +109,11 @@ implements SubscriberInterface {
   function change_post_menu_label() {
     global $menu;
     global $submenu;
-    $menu[ 5 ][ 0 ] = 'Blog';
+    $menu[ 5 ][ 0 ] = 'Article';
     //  $submenu[ 'edit.php' ][ 5 ][ 0 ] = 'Posts';
     //  $submenu[ 'edit.php' ][ 10 ][ 0 ] = 'Add New';
-    // $submenu[ 'edit.php' ][ 16 ][ 0 ] = 'News Tags';
-    echo '';
+     $submenu[ 'edit.php' ][ 16 ][ 0 ] = 'Blog Topics';
+ 
   }
 
 
@@ -102,7 +123,7 @@ implements SubscriberInterface {
     $labels->name = 'Blog';
     $labels->singular_name = 'Blog';
     $labels->add_new = 'Add Blog Post';
-    $labels->add_new_item = 'Add Post';
+    $labels->add_new_item = 'Add  Post';
     $labels->edit_item = 'Edit Post';
     $labels->new_item = 'Blog Posts';
     $labels->view_item = 'View Blog Posts';
@@ -136,6 +157,23 @@ implements SubscriberInterface {
     remove_meta_box( 'tagsdiv-relation', 'person', 'side' );
     remove_meta_box( 'acf-group_5f0c6eb201deb', 'person', 'side' );
     remove_meta_box( 'postimagediv', 'person', 'side' );
+	remove_meta_box( 'tagsdiv-status', 'person', 'side' ); 
+	  //Remove Event Metaboxes
+	  
+	   remove_meta_box( 'tagsdiv-course_of_study', 'event', 'side' );
+	    remove_meta_box( 'tagsdiv-privacy_level', 'event', 'side' );
+	    remove_meta_box( 'tagsdiv-degree', 'event', 'side' );
+	    remove_meta_box( 'tagsdiv-event_type', 'event', 'side' );
+	    remove_meta_box( 'postimagediv', 'event', 'side' );
+	  
+	  //Remove Bookmark Metaboxes
+	   remove_meta_box( 'tagsdiv-topic', 'bookmark', 'side' );
+	    remove_meta_box( 'tagsdiv-privacy_level', 'bookmark', 'side' );
+
+	    remove_meta_box( 'postimagediv', 'bookmark', 'side' );
+	  
+	  //Remove Task Metaboxes
+	  remove_meta_box('tagsdiv-topic','task','side');
   }
 
 
@@ -182,28 +220,7 @@ implements SubscriberInterface {
 
   //Configure Materials and Research Admin Menus
 
-  function setup_admin_menus() {
-    add_menu_page(
-      __( 'Custom Menu Title', 'textdomain' ),
-      'Research',
-      'read',
-      'research',
-      'custom_research_page',
-      'dashicons-info-outline',
-      8
-    );
 
-    add_menu_page(
-      __( 'Custom Menu Title', 'textdomain' ),
-      'Materials',
-      'read',
-      'materials',
-      'custom_materials_page',
-      'dashicons-database',
-      7 );
-
-
-  }
 
   function remove_these_admin_menus( $menu_order ) {
 
@@ -231,9 +248,19 @@ implements SubscriberInterface {
 
         //settings menu
         $keyE = array_search( 'options-general.php', $m );
-
-
-        if ( $key || $keyB || $keyC || $keyD || $keyE )
+        
+		//appearance menu
+		 $keyF =array_search('themes.php',$m); 
+		
+          $keyG =array_search('plugins.php',$m); 
+		  
+		   $keyH =array_search('admin.php?page=theme-general-settings',$m); 
+		  
+		   $keyI =array_search('themes.php',$m); 
+		  
+		   $keyJ =array_search('themes.php',$m); 
+		  
+        if ( $key || $keyB || $keyC || $keyD || $keyE ||$keyF ||$keyG ||$keyH )
           unset( $menu[ $mkey ] );
       }
     }

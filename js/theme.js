@@ -8,6 +8,10 @@ jQuery(function ($) {
     $('.offcanvas').offcanvas('hide');
   });
 
+	
+	$('#contribute').select(function(){
+	alert( "Handler for .change() called." );
+	});
   // Search collapse button hide if empty
   if ($('#collapse-search').children().length == 0) {
     $('.top-nav-search-md, .top-nav-search-lg').remove();
@@ -49,4 +53,20 @@ jQuery(function ($) {
     document.body.appendChild(IEWarningDiv);
   }
   // IE Warning End
+	
+	document.querySelector('form').classList.add('shake');	
+
+	function test(){
+	 var checkBox = document.getElementById("requestCheck");
+	 // Get the output text
+  var text = document.getElementById("contribute");
+	  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "flex";
+  } else {
+    text.style.display = "none";
+  }
+	}
+	$('#requestCheck').click(test);
+	
 }); // jQuery End

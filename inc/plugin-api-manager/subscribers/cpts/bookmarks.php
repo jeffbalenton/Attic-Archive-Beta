@@ -51,7 +51,7 @@
 		"hierarchical" => false,
 		"rewrite" => [ "slug" => "bookmark", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [ "title", "editor", "thumbnail" ],
+		"supports" => [ "title", "editor", "thumbnail","custom-fields" ],
 		"show_in_graphql" => false,
 	];
 

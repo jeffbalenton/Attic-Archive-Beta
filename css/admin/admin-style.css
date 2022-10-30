@@ -9,3 +9,8 @@ h1.wp-heading-inline{
 	display:none;
 }
 */
+
+.wrap h1.wp-heading-inline {
+    display: none;
+ 
+}

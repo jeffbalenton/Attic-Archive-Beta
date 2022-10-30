@@ -28,7 +28,7 @@
 		"hierarchical" => false,
 		"rewrite" => [ "slug" => "update", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [ "title", "editor", "thumbnail" ],
+		"supports" => [ "title", "editor", "thumbnail" ,"custom-fields"],
 		"taxonomies" => [ "topic" ],
 		"show_in_graphql" => false,
 	];

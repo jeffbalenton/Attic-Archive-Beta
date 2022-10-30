@@ -19,7 +19,7 @@
 		"show_in_rest" => true,
 		"rest_base" => "",
 		"rest_controller_class" => "WP_REST_Posts_Controller",
-		"has_archive" => true,
+		"has_archive" => 'photos',
 		"show_in_menu" => 'materials',
 		"show_in_nav_menus" => true,
 		"delete_with_user" => false,
@@ -30,7 +30,7 @@
 		"rewrite" => [ "slug" => "photo", "with_front" => true ],
 		"query_var" => true,
 		"menu_position" => 25,
-		"supports" => [ "thumbnail", "comments" ],
+		"supports" => [ "thumbnail", "comments","title","custom-fields" ],
 		"show_in_graphql" => false,
 	];
 

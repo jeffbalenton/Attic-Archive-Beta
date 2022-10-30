@@ -183,7 +183,7 @@ class Search_Filter_Generate_Input {
 		$input_args['attributes']['title'] = $accessibility_label;
 		
 		//now we want to put the class attribute on the LI, and remove from input
-		$input_args['attributes']['class'] .= ' '.$input_args['input_class'];
+		$input_args['attributes']['class'] .= ' '.'w-75';// .$input_args['input_class'];
 		$input_args['attributes']['class'] = trim($input_args['attributes']['class']);
 		unset($input_args['input_class']);//don't want this visible to users
 		

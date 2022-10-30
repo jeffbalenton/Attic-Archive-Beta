@@ -220,8 +220,8 @@ if (!function_exists('bootscore_post_thumbnail')) :
     if (is_singular()) :
 ?>
 
-      <div class="post-thumbnail">
-        <?php the_post_thumbnail('full', array('class' => 'rounded mb-3')); ?>
+      <div class="post-thumbnail w-50">
+        <?php the_post_thumbnail('medium', array('class' => 'rounded mb-3')); ?>
       </div><!-- .post-thumbnail -->
 
     <?php else : ?>

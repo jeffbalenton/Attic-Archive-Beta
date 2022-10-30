@@ -30,6 +30,7 @@
 		"rewrite" => [ "slug" => "citation", "with_front" => true ],
 		"query_var" => true,
 		"show_in_graphql" => false,
+		"supports"=>["custom-fields"]
 	];
 
 	register_post_type( "citation", $args );

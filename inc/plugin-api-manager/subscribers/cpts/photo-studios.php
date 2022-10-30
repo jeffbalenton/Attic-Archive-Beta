@@ -30,7 +30,7 @@
 		"hierarchical" => false,
 		"rewrite" => [ "slug" => "photo_studio", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [ "title", "editor", "thumbnail", "comments" ],
+		"supports" => [ "title", "editor", "thumbnail", "comments","custom-fields" ],
 		"show_in_graphql" => false,
 	];
 

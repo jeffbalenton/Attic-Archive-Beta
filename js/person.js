@@ -16,7 +16,7 @@ $( ".btn1" ).click(function() {
         dataType : 'json',
         url: ajaxurl, // Since WP 2.8 ajaxurl is always defined and points to admin-ajax.php
         data: {
-              'action':'example_ajax_request', // This is our PHP function below
+              'action':'person_ajax_request', // This is our PHP function below
               'tab' : tab // This is the variable we are sending via AJAX
           },
           success:function(response) {

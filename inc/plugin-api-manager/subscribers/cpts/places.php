@@ -48,7 +48,7 @@
         'has_archive'        => false,
         'hierarchical'       => true,
         'menu_position'      => null,
-        'supports'           => [] ,
+        'supports'           => ["title","thumbnail","custom-fields"] ,
         'register_meta_box_cb' =>"Place_meta_box_cb"
     );
  

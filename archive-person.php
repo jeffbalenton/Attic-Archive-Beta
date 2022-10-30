@@ -16,8 +16,12 @@ get_header();
     <!-- Hook to add something nice -->
     <?php bs_after_primary(); ?>
     <div class="row">
-      <div class="col-sm-3"> <?php echo do_shortcode('[searchandfilter id="1254"]'); ?> </div>
-      <div class="col">
+      <div class="col-sm-3"> 
+		 
+		  <?php echo do_shortcode('[searchandfilter id="1254"]'); ?> 
+	
+		</div>
+      <div class="col-sm-9">
         <main id="main" class="site-main"> 
           
           <!-- Title & Description --> 
@@ -56,36 +60,42 @@ get_header();
                       <?php endif;?>
                     </div>
                   </div>
-                  <div class="col-sm-9">
+                  <div class="col-sm-10">
                     <table class="table table-responsive table-borderless">
                       <thead>
                         <tr class="text-center">
                           <th scope="col" class="flex-fill">Born</th>
                           <th scope="col" class="flex-fill">Died</th>
-                          <th scope="col" class="flex-fill">Generation</th>
+                          <th scope="col" class="flex-shrink">Generation</th>
                         </tr>
                       </thead>
                       <tbody class="text-center">
                         <tr>
-                          <td class=""><?php the_field('birthdate'); ?>
+                          <td class=""><?php the_field('birth_date'); ?>
                             <p></p>
                             <p>
-                              <?php $birthplace = get_field( 'birth_place' ); ?>
-                              <?php if ( $birthplace ) : ?>
-                              <?php foreach ( $birthplace as $post_ids ) : ?>
-                              <?php echo get_the_title( $post_ids ); ?>
-                              <?php endforeach; ?>
-                              <?php endif; ?>
+                           <?php $birthplace = get_field( 'birth_place' ); ?>
+                          <?php if ( $birthplace ) : ?>
+                          <?php foreach ( $birthplace as $birth ) :
+                      
+                              echo get_the_title( $birth );
+                          endforeach;
+                          endif;
+
+                          ?>
                             </p></td>
-                          <td class=""><?php the_field('deathdate'); ?>
+                          <td class=""><?php the_field('death_date'); ?>
                             <p></p>
                             <p>
-                              <?php $deathplace = get_field( 'death_place' ); ?>
-                              <?php if ( $deathplace ) : ?>
-                              <?php foreach ( $deathplace as $post_ids ) : ?>
-                              <?php echo get_the_title( $post_ids ); ?>
-                              <?php endforeach; ?>
-                              <?php endif; ?>
+                            <?php $deathplace = get_field( 'death_place' ); ?>
+                          <?php if ( $deathplace ) : ?>
+                          <?php foreach ( $deathplace as $death ) : 
+							
+							echo get_the_title($death);
+							?>
+                      
+                          <?php endforeach; ?>
+                          <?php endif; ?>
                             </p></td>
                           <td class=""><?php $person_generation = get_field( 'person_generation' ); ?>
                             <?php if ( $person_generation ) : ?>
@@ -98,9 +108,9 @@ get_header();
                 </div>
                 <div class="row">
                   <div class="col">
-                    <p class="text-center h4">Family Lines</p>
-                    <p></p>
-                    <?php $person_lineage = get_field( 'person_lineage' ); ?>
+					  <div class="container">
+					    <p class="text-center h4">Family Lines</p>
+						        <?php $person_lineage = get_field( 'person_lineage' ); ?>
                     <?php if ( $person_lineage ) : ?>
                     <?php
                     $get_terms_args = array(
@@ -112,11 +122,11 @@ get_header();
                     <?php $terms = get_terms( $get_terms_args ); ?>
                     <?php if ( $terms ) : ?>
 					  
-					  <div class="d-flex flex-row justify-content-center">
+					  <div class="row row-cols-auto">
 					  
                     <?php foreach ( $terms as $term ) : ?>
 					  
-					  <div class="p-2">
+					  <div class="col">
 					  
                     <a href="<?php echo esc_url( get_term_link( $term ) ); ?>" class="nav-link"><?php echo esc_html( $term->name ); ?></a>
 						  
@@ -128,6 +138,11 @@ get_header();
 					  
                     <?php endif; ?>
                     <?php endif; ?>
+					   
+					  </div>
+                  
+                    
+             
                   </div>
                 </div>
                 <div class="row justify-content-center">

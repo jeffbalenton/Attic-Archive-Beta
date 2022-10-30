@@ -11,14 +11,13 @@ get_header();
       <p class="Display-1 text-center text-white bg-warning">
         <?php the_Title(); ?>
       </p>
-		
     </div>
   </div>
   <div class="row">
     <div id="content-area" class="col-sm-9">
       <div class="container">
         <div class="row">
-          <div class="col-sm-7 offset-sm-2">
+          <div class="col-sm-8 offset-sm-2">
             <div class="d-flex align-items-center">
               <div class="flex-shrink-0">
                 <?php bootscore_post_thumbnail(); ?>
@@ -26,69 +25,50 @@ get_header();
                 <br />
                 <button class="btn btn-warning text-white btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#feedbackModal">Give Feedback</button>
               </div>
-				<div class=>
-              <div class="table-responsive">
-                <table class="table table-sm table-borderless fs-6">
-                  <tbody>
-                    <tr>
-                      <td><b>BIRTH</b></td>
-                      <td class="text-end"><?php the_field('birthdate'); ?></td>
-                      <td class="align-middle">
-					<i class="fa-solid fa-circle fa-xs"></i>
-						</td>
-                      <td><?php $birthplace = get_field( 'birth_place' ); ?>
-                        <?php if ( $birthplace ) : ?>
-                        <?php foreach ( $birthplace as $post_ids ) : ?>
-                        <?php echo get_the_title( $post_ids ); ?>
-                        <?php endforeach; ?>
-                        <?php endif; ?></td>
-                    </tr>
-                    <tr>
-                      <td><b>DEATH</b></td>
-                      <td class="text-end"><?php the_field('deathdate'); ?></td>
-                      <td class="align-middle"><i class="fa-solid fa-circle fa-xs"></i></td>
-                      <td><?php $deathplace = get_field( 'death_place' ); ?>
-                        <?php if ( $deathplace ) : ?>
-                        <?php foreach ( $deathplace as $post_ids ) : ?>
-                        <?php echo get_the_title( $post_ids ); ?>
-                        <?php endforeach; ?>
-                        <?php endif; ?></td>
-                    </tr>
-                  </tbody>
-                </table>
-				  <?php
-				  /*
-				   $bmonth = get_field( 'birth_month');
-    $bday = get_field( 'birth_day' );
-    $byear = get_field( 'birth_year' );
-		$date=date_create("$byear-$bmonth-$bday");
-$normalized_date=date_format($date,"M d, Y");
-	$test=get_field("birthdate");
-				  $test2=get_field("deathdate");
-	var_dump($test);
-				  var_dump($test2);
-				  
-				  
-				 $birth = get_term_by( 'slug', 'death','event_type' );
-				var_dump($birth->term_id);
-				
-				  $slug="Sample Page";
-	
-			$event =post_exists_by_title($slug);
-				  var_dump($event);
-				  
-				  $title ="Sample Post";
-			$found_post = archive_post_exists( $title,'','');
-		    var_dump($found_post);
-            if(!$found_post ) :
-				 
-				echo "post doesn't exist";
-				endif; 
-				  
-				    */
-            
-		?>
-              </div>
+              <div class="flex-grow-1 ms-3">
+                <div class="table-responsive">
+                  <table class="table table-sm table-borderless fs-6">
+                    <tbody>
+                      <tr>
+                        <td><b>BIRTH</b></td>
+                        <td class="text-end"><?php the_field('birth_date'); ?></td>
+                        <td class="align-middle"><i class="fa-solid fa-circle fa-xs"></i></td>
+                        <td><?php $birthplace = get_field( 'birth_place' ); ?>
+                          <?php if ( $birthplace ) : ?>
+                          <?php foreach ( $birthplace as $birth ) :
+                      
+                              echo get_the_title( $birth );
+                          endforeach;
+                          endif;
+
+                          ?>
+                  
+                       </td>
+                      </tr>
+                      <tr>
+                        <td><b>DEATH</b></td>
+                        <td class="text-end"><?php the_field('death_date'); ?></td>
+                        <td class="align-middle"><i class="fa-solid fa-circle fa-xs"></i></td>
+                        <td><?php $deathplace = get_field( 'death_place' ); ?>
+                          <?php if ( $deathplace ) : ?>
+                          <?php foreach ( $deathplace as $death ) : 
+							
+							echo get_the_title($death);
+							?>
+                      
+                          <?php endforeach; ?>
+                          <?php endif; ?></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <?php
+                  /**
+				  *
+				  *sample code
+				  */
+
+                  ?>
+                </div>
               </div>
               <!-- Modal -->
               <div class="modal fade" id="feedbackModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -118,6 +98,11 @@ $normalized_date=date_format($date,"M d, Y");
             <p> No Bio Yet</p>
             <?php endif;?>
           </div>
+        </div>
+        <div class="row">
+          <?php
+          ?>
+          <div class="col"> </div>
         </div>
         <div class="row text-center p-2">
           <div class="col-sm-6">
@@ -299,43 +284,37 @@ $normalized_date=date_format($date,"M d, Y");
                 <h5 class="modal-title" id="staticBackdropLabel">Life Events</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body"> 
-				
-				
-				<?php
-				  $id=get_the_ID();
-				  $event_args= [
-					  'post_type'=>'event',
-					  'post_parent' =>$id,
-				  ];
-				  
-				  $events=get_posts($event_args);
-		
-				
-				  if($events):
-				  echo '<ul>';
-				  foreach ($events as $event):
-				  echo '<li>';
-			      $title=get_the_Title($event->ID);
-				  echo $title;
-			      echo '</li>';		  
-				  endforeach;
-				  echo '</ul>';
-				  else:
-				  esc_html_e( 'No life events have been entered.');
-				  endif;
-				  
-				  
-				  
-				  ?>
-				
-				
-				
-				
-				
-				
-				
-				</div>
+              <div class="modal-body">
+                <?php
+                $id = get_the_ID();
+                $event_args = [
+                  'post_type' => 'event',
+                  'post_parent' => $id,
+                  'meta_key' => 'event_date',
+                  'orderby' => 'meta_value_date',
+                  'order' => 'ASC',
+                ];
+
+                $events = get_posts( $event_args );
+
+
+                if ( $events ):
+                  echo '<ul>';
+                foreach ( $events as $event ):
+                  echo '<li>';
+                $title = get_the_Title( $event->ID );
+                echo $title;
+                echo '</li>';
+
+                endforeach;
+                echo '</ul>';
+                else :
+                  esc_html_e( 'No life events have been entered.' );
+                endif;
+
+
+                ?>
+              </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
               </div>

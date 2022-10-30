@@ -1,0 +1,793 @@
+
+		<item>
+		<title><![CDATA[Add Event]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9634</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:03 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9634</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"event";}}}s:8:"position";s:15:"acf_after_title";s:5:"style";s:8:"seamless";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:1:{i:0;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[add-event]]></excerpt:encoded>
+		<wp:post_id>9634</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:03]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:03]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:03]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6314bcd7b9d1a]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Add Person]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9648</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:05 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9648</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"person";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:7:"tooltip";s:14:"hide_on_screen";a:1:{i:0;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[add-person]]></excerpt:encoded>
+		<wp:post_id>9648</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_632ee78bd6800]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Add Place]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9738</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:05 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9738</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"place";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:1:{i:0;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[add-place]]></excerpt:encoded>
+		<wp:post_id>9738</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:05]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_632ee36887590]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Article]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9748</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:05 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9748</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:16:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:7:"article";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:14:"acfict_enabled";i:1;s:17:"acfict_use_prefix";i:1;s:17:"acfict_table_name";s:7:"article";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[article]]></excerpt:encoded>
+		<wp:post_id>9748</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eb0453e7ccac]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Audio]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9794</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:06 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9794</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"audio";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[audio]]></excerpt:encoded>
+		<wp:post_id>9794</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f0f97ac5e987]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Bookmarks]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9860</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:07 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9860</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:8:"bookmark";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:2:{i:0;s:11:"the_content";i:1;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[bookmarks]]></excerpt:encoded>
+		<wp:post_id>9860</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f5798c0465a8]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Citations]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9914</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:08 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9914</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:8:"citation";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:2:{i:0;s:11:"the_content";i:1;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[citations]]></excerpt:encoded>
+		<wp:post_id>9914</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6026cdefc0219]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Collections]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=9969</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:09 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=9969</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:10:"collection";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[collections]]></excerpt:encoded>
+		<wp:post_id>9969</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eb04ebcbf268]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[contact form]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10001</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:09 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10001</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:12:"contact_form";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[contact-form]]></excerpt:encoded>
+		<wp:post_id>10001</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:09]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_620b23fae3a0b]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Containers]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10005</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:09 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10005</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:10:"collection";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[containers]]></excerpt:encoded>
+		<wp:post_id>10005</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5fd8e17db0366]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Documents]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10012</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:09 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10012</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:8:"document";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[documents]]></excerpt:encoded>
+		<wp:post_id>10012</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f0cc561d9b1e]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Ephemera]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10049</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:10 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10049</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:8:"ephemera";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[ephemera]]></excerpt:encoded>
+		<wp:post_id>10049</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f3bf03bcf55c]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Event]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10083</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:12 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10083</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:12:"options_page";s:8:"operator";s:2:"==";s:5:"value";s:22:"theme-general-settings";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[event]]></excerpt:encoded>
+		<wp:post_id>10083</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f0344dec2876]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Letters]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10200</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:13 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10200</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"letter";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[letters]]></excerpt:encoded>
+		<wp:post_id>10200</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:13]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eaf242badefb]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Locations]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10254</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:13 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10254</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:8:"location";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[locations]]></excerpt:encoded>
+		<wp:post_id>10254</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:13]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f71f88a61454]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Nav Menu Icons]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10277</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:13 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10277</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:13:"nav_menu_item";s:8:"operator";s:2:"==";s:5:"value";s:3:"all";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[nav-menu-icons]]></excerpt:encoded>
+		<wp:post_id>10277</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:13]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6209d900329bc]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Objects]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10279</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:14 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10279</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"object";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[objects]]></excerpt:encoded>
+		<wp:post_id>10279</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f761ab5c1f47]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[People]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10320</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:16 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10320</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:12:"options_page";s:8:"operator";s:2:"==";s:5:"value";s:18:"acf-options-people";}}}s:8:"position";s:6:"normal";s:5:"style";s:8:"seamless";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:7:"tooltip";s:14:"hide_on_screen";a:1:{i:0;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[people]]></excerpt:encoded>
+		<wp:post_id>10320</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eac8f5d0b8e9]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Photo]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10449</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:17 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10449</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"photo";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[photo]]></excerpt:encoded>
+		<wp:post_id>10449</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:17]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eaee07ccd0d8]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Photo Album]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10498</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:17 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10498</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:11:"photo_album";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:1:{i:0;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[photo-album]]></excerpt:encoded>
+		<wp:post_id>10498</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:17]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eefa2ad650d6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Photo Studio]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10526</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:18 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10526</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:12:"photo_studio";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[photo-studio]]></excerpt:encoded>
+		<wp:post_id>10526</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eb2ca39805d7]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Place]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10543</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10543</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:12:"options_page";s:8:"operator";s:2:"==";s:5:"value";s:17:"acf-options-place";}}}s:8:"position";s:6:"normal";s:5:"style";s:8:"seamless";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:4:{i:0;s:10:"categories";i:1;s:11:"the_content";i:2;s:4:"tags";i:3;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[place]]></excerpt:encoded>
+		<wp:post_id>10543</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eb2f159170a8]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Post Fields]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10600</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10600</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";}}}s:8:"position";s:6:"normal";s:5:"style";s:8:"seamless";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:1:{i:0;s:11:"the_content";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[post-fields]]></excerpt:encoded>
+		<wp:post_id>10600</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f4a6dc68a8f5]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Research Notes]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10620</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10620</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:10:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"letter";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"photo";}}i:2;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:7:"article";}}i:3;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"story";}}i:4;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"place";}}i:5;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"audio";}}i:6;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:11:"photo_album";}}i:7;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"event";}}i:8;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:8:"document";}}i:9;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:10:"collection";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[research-notes]]></excerpt:encoded>
+		<wp:post_id>10620</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f0c6eb201deb]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Rights and Usage]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10624</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10624</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:14:{s:8:"location";a:6:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"letter";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"photo";}}i:2;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:7:"article";}}i:3;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"story";}}i:4;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"audio";}}i:5;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"video";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:16:"acfe_permissions";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[rights-and-usage]]></excerpt:encoded>
+		<wp:post_id>10624</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eaf1d0973241]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Source]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10627</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10627</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"source";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:2:{i:0;s:11:"the_content";i:1;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[source]]></excerpt:encoded>
+		<wp:post_id>10627</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eaee3064d8ba]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Stories]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10636</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:20 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10636</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"story";}}}s:8:"position";s:15:"acf_after_title";s:5:"style";s:8:"seamless";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:1:{i:0;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[stories]]></excerpt:encoded>
+		<wp:post_id>10636</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:20]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:20]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f0f985587f67]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Tasks]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10664</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:21 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10664</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"task";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[tasks]]></excerpt:encoded>
+		<wp:post_id>10664</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f4ed958179d2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Texts]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10693</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:21 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10693</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"text";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[texts]]></excerpt:encoded>
+		<wp:post_id>10693</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5f513eb91a4d5]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Updates]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10721</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:21 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10721</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"update";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:2:{i:0;s:11:"the_content";i:1;s:5:"title";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[updates]]></excerpt:encoded>
+		<wp:post_id>10721</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6036b2fa10567]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[User Registration]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10725</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:21 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10725</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:14:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"user_form";s:8:"operator";s:2:"==";s:5:"value";s:3:"all";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:18:"acfe_display_title";s:0:"";s:13:"acfe_autosync";s:0:"";s:16:"acfe_permissions";s:0:"";s:9:"acfe_form";i:0;s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[user-registration]]></excerpt:encoded>
+		<wp:post_id>10725</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5fa057736a1a7]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Video Recording]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10730</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:22 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10730</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:5:"audio";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:4:"left";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";b:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:0;s:18:"acfe_display_title";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[video-recording]]></excerpt:encoded>
+		<wp:post_id>10730</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eb04a66daff6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[City Details]]></title>
+		<link>http://staging.test/?post_type=acf-field-group&#038;p=10749</link>
+		<pubDate>Sun, 23 Oct 2022 08:07:22 +0000</pubDate>
+		<dc:creator><![CDATA[webmaster]]></dc:creator>
+		<guid isPermaLink="false">http://staging.test/?p=10749</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:14:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"city";}}}s:8:"position";s:6:"normal";s:5:"style";s:8:"seamless";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";a:4:{i:0;s:11:"the_content";i:1;s:14:"featured_image";i:2;s:4:"slug";i:3;s:4:"tags";}s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:13:"acfe_autosync";s:0:"";s:9:"acfe_form";i:1;s:18:"acfe_display_title";s:0:"";s:16:"acfe_permissions";s:0:"";s:9:"acfe_meta";s:0:"";s:9:"acfe_note";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[city-details]]></excerpt:encoded>
+		<wp:post_id>10749</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-23 08:07:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-23 08:07:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-23 08:07:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_5eac2b277f78e]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>

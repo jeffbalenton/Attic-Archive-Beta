@@ -53,7 +53,7 @@ $labels = [
 		"hierarchical" => true,
 		"rewrite" => [ "slug" => "person", "with_front" => true ],
 		"query_var" => true,
-		"supports" => [  "thumbnail","title","custom-fields" ],
+		"supports" => [  "thumbnail","title","custom-fields"],
 		"show_in_graphql" => false,
 		"menu_icon" => "dashicons-groups",
 	];

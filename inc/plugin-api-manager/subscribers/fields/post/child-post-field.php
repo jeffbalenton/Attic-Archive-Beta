@@ -543,12 +543,12 @@ class ACF_Child_Post_Field extends acf_field {
 		$dir = my_plugins_dir_url('acf-extensions/acf-frontend.php' );
 
 		// register & include JS
-		wp_register_script( 'acf-input-acf-child-post-field', "{$dir}assets/js/acf-child-post-field.js" );
-		wp_enqueue_script( 'acf-input-acf-child-post-field' );
+		wp_register_script( 'acf-input-acf-child-post-field', dirname( __FILE__ ) . "/assets/js/acf-child-post-field.js" );
+		wp_enqueue_script( 'acf-input-acf-child-post-field' ,array( 'jquery' ),true);
 
 
 		// register & include CSS
-		wp_register_style( 'acf-input-acf-child-post-field', "{$dir}assets/css/acf-child-post-field.css" );
+		wp_register_style( 'acf-input-acf-child-post-field', dirname( __FILE__ ) . "/assets/css/acf-child-post-field.css" );
 		wp_enqueue_style( 'acf-input-acf-child-post-field' );
 	}
 
@@ -1134,3 +1134,4 @@ class ACF_Child_Post_Field extends acf_field {
 
 	 */
 }
+acf_register_field_type( 'ACF_Child_Post_Field' );

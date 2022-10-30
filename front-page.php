@@ -4,7 +4,7 @@
     <div class="col-sm-12 col-md-10">
       <div class="row">
         <?php
-		  
+		
 		
 /*
         use WeDevs\ORM\WP\Post as Post;
@@ -49,7 +49,7 @@
                 <?php if ( $updates ):?>
                 <?php  foreach ( $updates as $update ): ?>
                 <?php $title = $update->post_title; ?>
-                <?php $content= $update->post_content; ?>
+                <?php $content= get_field('update_content',$update->ID) ?>
                 <div class="card">
                   <h5 class="card-header bg-warning text-white"> <?php echo $title ?> </h5>
                   <div class="card-body"> <?php echo $content; ?> </div>

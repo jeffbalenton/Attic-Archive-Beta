@@ -20,11 +20,12 @@ define( 'MY_ACFE_PATH', get_template_directory() . '/inc/acf-extended/' );
 define( 'MY_ACFE_URL', get_template_directory_uri() . '/inc/acf-extended/' );
 
 
-//include ACF And ACF Extended 
+//include ACF And ACF Extended and local field groups
 
 include_once( 'inc/acf/acf.php' );
 include_once( 'inc/acf-extended/acf-extended.php' );
-
+//Include ACF Fields
+//require_once('inc/acf-fields.php');
 //Search Filter
 
 include_once( 'inc/search-filter-pro/search-filter-pro.php' );
@@ -35,47 +36,227 @@ include_once( 'inc/search-filter-pro/search-filter-pro.php' );
 
 //Include Parsers
 
-include_once( 'inc/parsers.php' );
+//include_once( 'inc/parsers.php' );
 
+//Include repository class ToDo add description of what it does
 
+require_once ('inc/class-repository.php');
 
-/**
- * Save a post into the repository. Returns the post ID or a WP_Error.
- *
- * @param array $post
- *
- * @return int|WP_Error
- */
-function archive_save_event( array $post ) {
-  if ( !empty( $post[ 'ID' ] ) ) {
-    return wp_update_post( $post, true );
-  }
+//Include Helpers
 
-  return wp_insert_post( $post, true );
-}
+require_once( 'inc/helper-functions.php' );
+
+require_once('inc/unit-tests.php');
+
+//include content control
+
+//require_once('inc/content-control/content-control.php');
+
+//AutoImporter
+
+require_once('inc/autoimport/autoimporter.php');
+
+//include User Registration Approve
+
+//require_once('inc/user-registration/new-user-approve.php');
+
 
 /**
  * post_exists_by_slug.
  *
  * @return mixed boolean false if no post exists; post ID otherwise.
  */
-function post_exists_by_title( $post_title ) {
-  $args_posts = array(
-    'post_type' => [ 'post', 'event' ],
-    'post_status' => 'any',
-    'post_title' =>$post_title,
-	  'posts_per_page' => 1,
-  );
-  $loop_posts = new WP_Query( $args_posts );
-  if ( !$loop_posts ) {
-    return 0;
-  } else {
-	  return 1;
+function page_exists( $page_name ) {
+   $page = get_page_by_path( $page_name , OBJECT );
+
+     if ( isset($page) ):
+        return true;
+     else:
+        return false;
+    endif;
   }
   
-  
+//@TODO Figure out why event post doesn't save date use acf/save_post hook and/or PluginAPI interface
+//add_action('acf/save_post','create_event_date');
+function create_event_date($post_id) {
+
+  // bail early if not a person post
+ /*   if ( get_post_type( $post_id ) !== 'event' ) :
+
+      return;
+
+    endif;
+	  */
+    // bail out if this is an autosave
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ):
+      return;
+    endif;
+
+// bail out if this is not an event item
+ // bail early if not a person post
+    if ( get_post_type( $post_id ) !== 'event' ) {
+
+      return;
+
+    }
+
+    // Get newly saved values.
+    $values = get_fields( $post_id );
+
+
+
+  $eventmonth = get_field( 'event_month', $post_id );
+    $eventday = get_field( 'event_day', $post_id );
+    $eventyear = get_field( 'event_year', $post_id );
+	
+	    switch(true){
+			 case !isset($eventyear):
+				 $eventmonth=null;
+				 $eventday=null;
+				 break;
+			 case isset($eventyear):
+				 if( $eventmonth ==="0" && $eventday ==="0" ):
+				 $eventmonth=null;
+				 $eventday=null;
+				 elseif ($month ==="0" && $eventday !=="0"):
+				 $eventmonth=null;
+				 elseif($eventmonth !=="0" && $evenyday === "0" ):
+				 $eventday=null;
+				 endif;
+				 break;
+		 }
+	
+$date_data=aa_convert_date($eventyear,$eventmonth,$eventday);
+
+    update_post_meta( $post_id, 'event_date', $date_data['database_date']);
+    update_post_meta( $post_id, 'display_date', $date_data['display_date']);
+ 
+
+
+
+  }
+
+add_filter('gettext', 'change_howdy', 10, 3);
+
+function change_howdy($translated, $text, $domain) {
+
+    if (!is_admin() || 'default' != $domain)
+        return $translated;
+
+    if (false !== strpos($translated, 'Howdy'))
+        return str_replace('Howdy', 'Welcome', $translated);
+
+    return $translated;
 }
 
+// MOVE THE AUTHOR METABOX INTO THE PUBLISH METABOX
+add_action( 'admin_menu', 'remove_author_metabox' );
+add_action( 'post_submitbox_misc_actions', 'move_author_to_publish_metabox' );
+function remove_author_metabox() {
+    remove_meta_box( 'authordiv', 'post', 'normal' );
+}
+function move_author_to_publish_metabox() {
+    global $post_ID;
+    $post = get_post( $post_ID );
+    echo '<div id="author" class="misc-pub-section" style="border-top-style:solid; border-top-width:1px; border-top-color:#EEEEEE; border-bottom-width:0px;">Author: ';
+    post_author_meta_box( $post );
+    echo '</div>';
+}
+  /*
+  $pages = [ 'Locations' => 'locations',
+      'Collections' => 'collections',
+      'Articles' => 'articles',
+      'Letters' => 'letters',
+      'Texts' => 'texts',
+      'Ephemera' => 'ephemera',
+      'Audio Recordings' => 'audio-recordings',
+      'Documents' => 'document-finder',
+      'Objects' => 'objects',
+      'Home' => 'home',
+      'Blog' => 'blog',
+      'Private Content Page' => 'private-content-page',
+      'Thank You' => 'contact-form-thank-you',
+      'About' => 'about'
+    ];
+
+
+    foreach ( $pages as $k => $v ):
+      $found_post = page_exists( $k );
+    if ( !$found_post ):
+      $args = [
+        'post_type' => 'page',
+        'post_title' => $k,
+        'post_name' => $v,
+        'post_status' => 'publish'
+      ];
+
+    $post_id = wp_insert_post( $args );
+    if ( !is_wp_error( $post_id ) ):
+      //the post is valid
+      else :
+        //there was an error in the post insertion, 
+        echo $post_id->get_error_message();
+    endif;
+    endif;
+    endforeach;
+*/
+   
+
+
+  //Create Pages if they don't exist
+/*
+	  $pages=['locations',
+	  'collections',
+	  'articles',
+	  'letters',
+	  'texts',
+	  'ephemera',
+	  'audio-recordings',
+	  'document-finder',
+	  'objects',
+	  'home',
+	  'blog',
+	  'private-content-page',
+	  'contact-form-thank-you',
+	  'about'
+	  ];
+	  
+	if($pages):
+	  foreach ($pages as $page):
+	  
+	
+	  $postarr=['post_type'=>'page',
+				'post_name'=>$page
+				'post_title'];
+	  wp_insert_post($postarr);
+	  endforeach;
+	endif; */
+
+//add_action('admin_menu','archive_admin_menus');
+
+function archive_admin_menus(){
+	  add_menu_page(
+      __( 'Custom Menu Title', 'textdomain' ),
+      'Research',
+      'read',
+      'research',
+      'custom_research_page',
+      'dashicons-info-outline',
+		  7
+  
+    );
+
+    add_menu_page(
+      __( 'Custom Menu Title', 'textdomain' ),
+      'Materials',
+      'read',
+      'materials',
+      'custom_materials_page',
+      'dashicons-database',
+		8
+     );
+
+}
 
 //Plugin API Manager
 
@@ -86,12 +267,230 @@ include_once( 'inc/plugin-api-manager/subscribers/admin.php' );
 include_once( 'inc/plugin-api-manager/subscribers/ajax.php' );
 include_once( 'inc/plugin-api-manager/subscribers/fields.php' );
 
+
 $PluginAPIManager = new PluginAPIManager();
 $PluginAPIManager->add_subscriber( new CustomPostTypesSubscriber() );
 $PluginAPIManager->add_subscriber( new CustomFieldsSubscriber() );
 $PluginAPIManager->add_subscriber( new ThemeConfig() );
+
 $PluginAPIManager->add_subscriber( new AdminSubscriber() );
 $PluginAPIManager->add_subscriber( new AjaxSubscriber() );
+
+add_action('acf/save_post','create_person');
+ function create_person($post_id) {
+    // bail out if this is an autosave
+    if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ):
+      return;
+    endif;
+
+
+    // Get newly saved values.
+    $values = get_fields( $post_id );
+
+    // bail early if not a person post
+    if ( get_post_type( $post_id ) !== 'person' ) {
+
+      return;
+
+    }
+
+    $privacy_level = get_field( 'person_privacy', $post_id );
+    wp_set_object_terms( $post_id, $privacy_level, 'privacy_level', true );
+
+    $gender = get_field( 'person_gender', $post_id );
+    wp_set_object_terms( $post_id, $gender, 'gender', true );
+	  
+	 
+	 //Workaround Re: Child Post not saving certain post meta
+	 
+	  $life_events=get_field('life_events',$post_id);
+	  if($life_events):
+	  
+	  foreach ($life_events as $event):
+	  $event_type=get_field('event_cat',$event);
+	  $event_year=get_field('event_year',$event);
+	  $event_month=get_field('event_month',$event);
+	  $event_day=get_field('event_day',$event);
+	  
+	
+	  
+	  
+	  $date_data=aa_convert_date($event_year,$event_month,$event_day);
+	  
+	  update_post_meta($event,'event_date',$date_data['database_date']);
+	  update_post_meta($event,'display_date',$date_data['display_date']);
+	   wp_set_object_terms($event,$event_type,'event_type',true);
+	  
+	  endforeach;
+	  endif;
+	  
+	 
+	 //Built-in Birth Event
+	 
+	   //Get Birth Data
+    $month = get_field( 'birth_month', $post_id );
+    $day = get_field( 'birth_day', $post_id );
+    $year = get_field( 'birth_year', $post_id );
+    $birth_city = get_field( 'birth_place', $post_id );
+
+
+	 $date_data = aa_convert_date( $year, $month, $day );  
+	 
+    $birth_title = get_the_title( $post_id ) . " Birth";
+
+
+    update_post_meta( $post_id, 'birth_date', $date_data[ 'display_date' ] );
+
+    //Postarr (Birth)
+
+
+    $postarr = [
+
+      'post_type' => 'event',
+      'post_parent' => $post_id,
+	  'post_title'=>$birth_title,
+      'tax_query' => [
+        [
+          'taxonomy' => 'event_type',
+          'field' => 'slug',
+          'terms' => 'primary_birth'
+        ]
+      ],
+    ];
+
+    global $repository;
+    $birth = $repository->find_one( $postarr );
+    unset($postarr);
+    
+	  if ( $birth ):
+      $postarr = [
+        'ID' => $birth->ID,
+        'post_title' => $birth_title,
+        'post_name' => $birth_title,
+        'meta_input' => [
+          'display_date' => $date_data[ 'display_date' ],
+          'event_date' => $date_data[ 'database_date' ],
+          'event_city' => $birth_city,
+          'event_year' => $year,
+          'event_month' => $month,
+          'event_day' => $day,
+          'event_name' => $birth_title,
+          //'event_place' => $birth_place,
+
+        ]
+      ];
+
+    else :
+      $postarr = [
+        'comment_status' => 'closed',
+        'ping_status' => 'closed',
+        'post_status' => 'publish',
+        'post_type' => 'event',
+        'post_title' => $birth_title,
+        'post_name' => $birth_title,
+        'post_parent' => $post_id,
+        'meta_input' => [
+          'display_date' => $date_data[ 'display_date' ],
+          'event_date' => $date_data[ 'database_date' ],
+          'event_city' => $birth_city,
+          'event_year' => $year,
+          'event_month' => $month,
+          'event_day' => $day,
+          'event_name' => $birth_title,
+          // 'event_place' => $birth_place
+        ]
+      ];
+   
+    endif;
+ $birth_event = $repository->save( $postarr );
+
+    wp_set_object_terms( $birth_event, 'primary_birth', 'event_type', true );
+    wp_set_object_terms( $birth_event, $privacy_level, 'privacy_level', true );
+	 
+	  unset($month);
+	 unset($day);
+	 unset($year);
+	 
+	 
+	 //Built-in Death Event
+	 
+	$month = get_field( 'death_month', $post_id );
+    $day = get_field( 'death_day', $post_id );
+    $year = get_field( 'death_year', $post_id );
+    $death_city = get_field( 'death_place', $post_id );
+
+   
+    $death_data = aa_convert_date( $year, $month, $day );
+
+    update_post_meta( $post_id, 'death_date', $death_data[ 'display_date' ] );
+    $death_title = get_the_title( $post_id ) . " Death";
+
+
+    $postarr = [
+
+      'post_type' => 'event',
+      'post_parent' => $post_id,
+	  'post_title' =>$death_title,
+      'tax_query' => [
+        [
+          'taxonomy' => 'event_type',
+          'field' => 'slug',
+          'terms' => 'primary_death'
+        ]
+      ],
+    ];
+
+    global $repository;
+    $death = $repository->find_one( $postarr );
+ unset($postarr);
+	 
+    if ( $death ):
+      $postarr = [
+        'ID' => $death->ID,
+        'post_title' => $death_title,
+        'post_name' => $death_title,
+        'meta_input' => [
+          'display_date' => $death_data[ 'display_date' ],
+          'event_date' => $death_data[ 'database_date' ],
+          'event_city' => $death_city,
+          'event_year' => $year,
+          'event_month' => $month,
+          'event_day' => $day,
+          'event_name' => $death_title,
+          //'event_place' => $death_place,
+
+        ]
+      ];
+
+    else :
+      $postarr = [
+        'comment_status' => 'closed',
+        'ping_status' => 'closed',
+        'post_status' => 'publish',
+        'post_type' => 'event',
+        'post_title' => $death_title,
+        'post_name' => $death_title,
+        'post_parent' => $post_id,
+        'meta_input' => [
+          'display_date' => $death_data[ 'display_date' ],
+          'event_date' => $death_data[ 'database_date' ],
+          'event_city' => $death_city,
+          'event_year' => $year,
+          'event_month' => $month,
+          'event_day' => $day,
+          'event_name' => $death_title,
+          // 'event_place' => $death_place
+        ]
+      ];
+    
+    endif;
+
+$death_event = $repository->save( $postarr );
+    wp_set_object_terms( $death_event, 'primary_death', 'event_type', true );
+    wp_set_object_terms( $death_event, $privacy_level, 'privacy_level', true );
+
+  }
+
 
 // Register Bootstrap 5 Nav Walker
 if ( !function_exists( 'register_navwalker' ) ):
@@ -199,45 +598,42 @@ if ( !function_exists( 'bootscore_setup' ) ):
     $wp_rewrite->flush_rules( true );
 
 
-
-
-
-    // Check if Webmaster is user
-
-
-    $user = get_user_by( 'display_name', 'webmaster' );
-    if ( !$user ):
-      $userdata = [
-        'ID' => 0, //(int) User ID. If supplied, the user will be updated.
-        'user_pass' => 'archiveuser2022', //(string) The plain-text user password.
-        'user_login' => 'webmaster@exammple.com', //(string) The user's login username.
-        'user_nicename' => '', //(string) The URL-friendly user name.
-        'user_url' => '', //(string) The user URL.
-        'user_email' => 'webmaster@exammple.com', //(string) The user email address.
-        'display_name' => 'webmaster', //(string) The user's display name. Default is the user's username.
-        'nickname' => '', //(string) The user's nickname. Default is the user's username.
-        'first_name' => 'Webmaster', //(string) The user's first name. For new users, will be used to build the first part of the user's display name if $display_name is not specified.
-        'last_name' => 'User', //(string) The user's last name. For new users, will be used to build the second part of the user's display name if $display_name is not specified.
-        'description' => '', //(string) The user's biographical description.
-        'rich_editing' => '', //(string|bool) Whether to enable the rich-editor for the user. False if not empty.
-        'syntax_highlighting' => '', //(string|bool) Whether to enable the rich code editor for the user. False if not empty.
-        'comment_shortcuts' => '', //(string|bool) Whether to enable comment moderation keyboard shortcuts for the user. Default false.
-        'admin_color' => '', //(string) Admin color scheme for the user. Default 'fresh'.
-        'use_ssl' => '', //(bool) Whether the user should always access the admin over https. Default false.
-        'user_registered' => '', //(string) Date the user registered. Format is 'Y-m-d H:i:s'.
-        'show_admin_bar_front' => '', //(string|bool) Whether to display the Admin Bar for the user on the site's front end. Default true.
-        'role' => 'administrator', //(string) User's role.
-        'locale' => '', //(string) User's locale. Default empty.
-      ];
-
-    wp_insert_user( $userdata );
-
-    endif;
+/*if (get_option()):
+endif; */
 
 
   }
 endif;
 add_action( 'after_setup_theme', 'bootscore_setup' );
+
+
+
+//add_action('acf/save_post', 'my_acf_save_post', 5);
+function my_acf_save_post( $post_id ) {
+
+    // Get previous values.
+    $prev_values = get_fields( $post_id );
+
+    // Get submitted values.
+    $values = $_POST['acf'];
+
+    // Check if a specific value was updated.
+    if( !isset($_POST['acf']['field_632ee78']) ) {
+        // Do something.
+		update_post_meta( $post_id, 'birth_month', "00" );
+    }
+	
+	 // Check if a specific value was updated.
+    if( !isset($_POST['acf']['field_abc123']) ) {
+        // Do something.
+		update_post_meta( $post_id, 'birth_day', $formal_bdate );
+    }
+	
+}
+
+
+
+
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -416,6 +812,9 @@ function bootscore_scripts() {
   //Custom Css
   wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css', array(), $modificated_customCss );
 
+	
+	
+	
   //Lightbox Css & Js
 
   wp_enqueue_style( 'lightbox', get_template_directory() . '/css/lib/lightbox/lightbox.css', array(), $modificated_lightboxCss );
@@ -744,55 +1143,72 @@ function search_filter_db_install() {
   dbDelta( $sql );
 }
 
-function archive_post_exists( $title, $content = '', $date = '', $type = '', $status = '' ) {
+
+function example_db_install() {
   global $wpdb;
 
-  $post_title = wp_unslash( sanitize_post_field( 'post_title', $title, 0, 'db' ) );
-  $post_content = wp_unslash( sanitize_post_field( 'post_content', $content, 0, 'db' ) );
-  $post_date = wp_unslash( sanitize_post_field( 'post_date', $date, 0, 'db' ) );
-  $post_type = wp_unslash( sanitize_post_field( 'post_type', $type, 0, 'db' ) );
-  $post_status = wp_unslash( sanitize_post_field( 'post_status', $status, 0, 'db' ) );
+  $table_name = $wpdb->prefix . 'ajax_database';
 
-  $query = "SELECT ID FROM $wpdb->posts WHERE 1=1";
-  $args = array();
+  $charset_collate = '';
 
-  if ( !empty( $date ) ) {
-    $query .= ' AND post_date = %s';
-    $args[] = $post_date;
+  if ( $wpdb->has_cap( 'collation' ) ) {
+    $charset_collate = $wpdb->get_charset_collate();
   }
 
-  if ( !empty( $title ) ) {
-    $query .= ' AND post_title = %s';
-    $args[] = $post_title;
-  }
+  $sql = "CREATE TABLE $table_name (
+			id bigint(20) NOT NULL AUTO_INCREMENT,
+			
+			_name varchar(255) NOT NULL,
+			field_value varchar(255) NOT NULL,
+			field_value_num bigint(20) NULL,
+			field_parent_num bigint(20) NULL,
+			term_parent_id bigint(20) NULL,
+			PRIMARY KEY  (id),
+            KEY sf_c_field_name_index (field_name(32)),
+            KEY sf_c_field_value_index (field_value(32)),
+            KEY sf_c_field_value_num_index (field_value_num)
+		) $charset_collate;";
 
-  if ( !empty( $content ) ) {
-    $query .= ' AND post_content = %s';
-    $args[] = $post_content;
-  }
+  require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+  dbDelta( $sql );
 
-  if ( !empty( $type ) ) {
-    $query .= ' AND post_type = %s';
-    $args[] = $post_type;
-  }
+  $table_name = $wpdb->prefix . 'search_filter_term_results';
 
-  if ( !empty( $status ) ) {
-    $query .= ' AND post_status = %s';
-    $args[] = $post_status;
-  }
 
-  if ( !empty( $args ) ) {
-    return ( int )$wpdb->get_var( $wpdb->prepare( $query, $args ) );
-  }
+  $sql = "CREATE TABLE $table_name (
+			id bigint(20) NOT NULL AUTO_INCREMENT,
+			field_name varchar(255) NOT NULL,
+			field_value varchar(255) NOT NULL,
+			field_value_num bigint(20) NULL,
+			result_ids mediumtext NOT NULL,
+			PRIMARY KEY  (id),
+            KEY sf_tr_field_name_index (field_name(32)),
+            KEY sf_tr_field_value_index (field_value(32)),
+            KEY sf_tr_field_value_num_index (field_value_num)
 
-  return 0;
+		) $charset_collate;";
+
+
+  dbDelta( $sql );
 }
+
+
+
+function archive_scratch_page(){
+	include ('inc/scratch/scratch.php');
+
+}
+
+function aa_scratch_function(){
+		include ('inc/scratch/scratch.php');
+}
+
 
 if( function_exists('acf_add_options_page') ) {
 	
 	acf_add_options_page(array(
 		'page_title' 	=> 'Theme General Settings',
-		'menu_title'	=> 'Theme Settings',
+		'menu_title'	=> 'Field Settings',
 		'menu_slug' 	=> 'theme-general-settings',
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false
@@ -805,9 +1221,141 @@ if( function_exists('acf_add_options_page') ) {
 	));
 	
 	acf_add_options_sub_page(array(
-		'page_title' 	=> 'Theme Footer Settings',
-		'menu_title'	=> 'Footer',
+		'page_title' 	=> 'Theme Event Settings',
+		'menu_title'	=> 'Event',
 		'parent_slug'	=> 'theme-general-settings',
 	));
 	
+		acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme People Settings',
+		'menu_title'	=> 'People',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Place Settings',
+		'menu_title'	=> 'Place',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+}
+
+function change_post_menu_label() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Blog';
+   // $submenu['edit.php'][5][0] = 'Posts';
+   // $submenu['edit.php'][10][0] = 'Add Post';
+    echo '';
+}
+
+function change_post_object_label() {
+        global $wp_post_types;
+        $labels = &$wp_post_types['post']->labels;
+        $labels->name = 'Blog';
+        $labels->singular_name = 'Blog';
+        $labels->add_new = 'Add Blog Post';
+        $labels->add_new_item = 'Add Post';
+        $labels->edit_item = 'Edit Post';
+        $labels->new_item = 'Post';
+        $labels->view_item = 'View Post';
+        $labels->search_items = 'Search Blog';
+        $labels->not_found = 'No Blog Posts found';
+        $labels->not_found_in_trash = 'No Blog posts found in Trash';
+        $labels->name_admin_bar = 'Add Post';
+}
+add_action( 'init', 'change_post_object_label' );
+add_action( 'admin_menu', 'change_post_menu_label' );
+
+//Stuff to organize later
+
+/**
+ * Fire a callback only when my-custom-post-type posts are transitioned to 'publish'.
+ *
+ * @param string  $new_status New post status.
+ * @param string  $old_status Old post status.
+ * @param WP_Post $post       Post object.
+ */
+
+function aa_get_all_post_meta_keys()
+	{
+	
+	$post_meta_keys = array();
+	
+		if(is_array($post_meta_keys))
+		{
+			$num_meta_keys = count($post_meta_keys);
+			if($num_meta_keys==0)
+			{
+				$ignore_list = array(
+					'_wp_page_template', '_edit_lock', '_edit_last', '_menu_item_type', '_menu_item_menu_item_parent', '_menu_item_object_id', '_menu_item_object', '_menu_item_target', '_menu_item_classes', '_menu_item_xfn', '_menu_item_url', '_search-filter-fields'
+				);
+				global $wpdb;
+				$data   =   array();
+
+			
+	                $wpdb->query("
+                        SELECT DISTINCT(`meta_key`) 
+                        FROM $wpdb->postmeta ORDER BY `meta_key` ASC
+                    ");
+                
+
+				foreach($wpdb->last_result as $k => $v){
+					//$data[$v->meta_key] =   $v->meta_value;
+					$data[] = $v->meta_key;
+				}
+				
+				$post_meta_keys = $data;
+
+			}
+		}
+		
+		return $post_meta_keys;
+	}
+	
+add_filter('registration_errors','reg_validation',10,3);
+function reg_validation($errors, $sanitized_user_login, $user_email){
+		    if ( empty( $_POST['fname'])  ) {
+        $errors->add( 'user_fname_error', __( '<strong>Error</strong>: Please provide your first name.', 'my_textdomain' ) );
+    }
+		
+	
+		return $errors;
+	}
+
+add_action('admin_menu','setup_admin_menus');
+     function setup_admin_menus() {
+    add_menu_page(
+      __( 'Custom Menu Title', 'textdomain' ),
+      'Research',
+      'read',
+      'research',
+      'custom_research_page',
+      'dashicons-info-outline',
+		7
+  
+    );
+
+    add_menu_page(
+      __( 'Custom Menu Title', 'textdomain' ),
+      'Materials',
+      'read',
+      'materials',
+      'custom_materials_page',
+      'dashicons-database',
+		8
+		
+     );
+
+$menu_slug = 'scratch-slug';
+add_menu_page( 
+	__('Active Archive Admin','textdomain'), 
+	'Attic Archive', 
+	'read', 
+	$menu_slug, 
+	false 
+);
+add_submenu_page( $menu_slug, 'Overview', 'Settings', 'read', $menu_slug, 'aa_scratch_function',1 );
+add_submenu_page( $menu_slug, 'Overview', 'Unit Tests', 'read', 'unit-tests', 'unit_tests',2 );
+}
+function unit_tests(){
+	include ('inc/scratch/unit-tests.php');
 }

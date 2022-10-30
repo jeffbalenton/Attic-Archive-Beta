@@ -1,0 +1,29 @@
+[
+	{
+  "title": "Photo Filter",
+  "post_id": 275,
+  "post_name":  "photo-filter",
+  "status": "publish",
+  "post_type":  "search-filter-widget",
+  "postmeta": [
+    {
+      "meta_key":  "_search-filter-fields",
+      "meta_value": ""},
+		{
+      "meta_key":  "_search-filter-settings",
+      "meta_value": ""},
+    {
+      "meta_key": "_search-filter-results-url",
+      "meta_value": "http://beta.test/photos"
+	}
+  
+	  
+	]
+	}
+	{
+	
+	}
+	{
+	
+	}
+]
